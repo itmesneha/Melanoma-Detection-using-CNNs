@@ -19,9 +19,6 @@ The data set contains the following diseases:
 7. Seborrheic keratosis
 8. Squamous cell carcinoma
 9. Vascular lesion
- 
-
-NOTE: You don't have to use any pre-trained model using Transfer learning. All the model building process should be based on a custom model.
 
  
 
@@ -33,26 +30,26 @@ NOTE: You don't have to use any pre-trained model using Transfer learning. All t
     Create a CNN model, which can accurately detect 9 classes present in the dataset. While building the model rescale images to normalize pixel values between (0,1).
 - Choose an appropriate optimiser and loss function for model training
 - Train the model for ~20 epochs
-- Write your findings after the model fit, see if there is evidence of model overfit or underfit
+- See if there is evidence of model overfit or underfit
 - Choose an appropriate data augmentation strategy to resolve underfitting/overfitting 
 **Model Building & training on the augmented data :**
   - Create a CNN model, which can accurately detect 9 classes present in the dataset. While building the model rescale images to normalize pixel values between (0,1).
   - Choose an appropriate optimiser and loss function for model training
   - Train the model for ~20 epochs
-  - Write your findings after the model fit, see if the earlier issue is resolved or not?
+  - Write findings after the model fit, see if the earlier issue is resolved.
 **Class distribution: **
   - Examine the current class distribution in the training dataset 
-  - Which class has the least number of samples?
-  - Which classes dominate the data in terms of the proportionate number of samples?
+  - Which class has the least number of samples
+  - Which classes dominate the data in terms of the proportionate number of samples
 **Handling class imbalances:** 
   - Rectify class imbalances present in the training dataset with Augmentor library.
 **Model Building & training on the rectified class imbalance data:**
   - Create a CNN model, which can accurately detect 9 classes present in the dataset. While building the model rescale images to normalize pixel values between (0,1).
   - Choose an appropriate optimiser and loss function for model training
   - Train the model for ~30 epochs
-  - Write your findings after the model fit, see if the issues are resolved or not?
+  - Write findings after the model fit, see if the issues are resolved.
  
 
  
 
-The model training may take time to train and hence you can use Google colab.
+The model training may take time to train and hence using Google colab.
